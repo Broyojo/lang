@@ -1,18 +1,21 @@
 # keywords
-func
-struct
-enum
-let
-return
-if
-elif
-else
-for
-nil
-match
-switch
-
-
+func   # function
+let    # variable declaration
+struct # data structure
+enum   # sum type
+macro  # macro
+return # return value
+if     # if statement
+elif   # else if statement
+else   # else statement
+match  # pattern matchin
+switch # switch statement
+for    # traditional for loop
+for in # for loop iteration through containers
+nil    # nil value for pointers
+true   # truthfulness
+false  # falseness
+import # importing modules
 
 # symbols
 +   # plus
@@ -25,6 +28,7 @@ switch
 -=  # minus-equals
 *=  # multiply-equals
 /=  # divide-equals
+%=  # modulo-equals
 **= # exponentiation-equals
 ~   # bit-wise not
 &   # bit-wise and
@@ -50,7 +54,8 @@ switch
 <=> # 3 way comparison
 @   # reference pointer
 $   # dereference pointer
-?   # nil-abble container (Option enum)
+?   # container that could be nothing (basically Option enum)
 #   # comment
 ""  # string
 ''  # char
+..  # range creation (inclusive on both ends)
