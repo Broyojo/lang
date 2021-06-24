@@ -54,4 +54,3 @@ $   # dereference pointer
 #   # comment
 ""  # string
 ''  # char
-\   # special characters i.e. \n
