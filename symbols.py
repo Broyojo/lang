@@ -59,3 +59,8 @@ $   # dereference pointer
 ""  # string
 ''  # char
 ..  # range creation (inclusive on both ends)
+->  # lambda and function symbol
+⟨⟩  # for generic parameters
+{}  # for defining scopes
+()  # order of operations or function calls
+[]  # array creation and indexing

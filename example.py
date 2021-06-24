@@ -40,8 +40,16 @@ import math
 import math as x
 import math.sin as y
 
-struct Vec[T: Num] {
+# generic data structures
+struct Vec⟨T: Num⟩ {
     X: T
     Y: T
     Z: T
+}
+
+{
+    # lambdas and map
+    let xs = [1, 2, 3, 4, 5]
+    xs.map(x -> x + 1)
+    print(xs)
 }
