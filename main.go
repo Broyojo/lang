@@ -19,7 +19,7 @@ func main() {
 	t := l.NextToken()
 
 	for t.Type != token.EOF {
-		fmt.Printf("%+v\n", t)
+		fmt.Printf("{Type: %s, Literal: %s}\n", t.Type, t.Literal)
 		t = l.NextToken()
 	}
 }
